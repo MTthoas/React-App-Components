@@ -1,5 +1,7 @@
 import Header from './components/header';
+import Footer from './components/footer';
 import React from 'react';
+import './index.css';
 
 
 function App() {
@@ -7,6 +9,9 @@ function App() {
 
         <div className="App mx-auto">
             <Header />
+            <div className="h-screen"> 
+            </div>
+            <Footer />
         </div>
         
     );
